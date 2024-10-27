@@ -25,7 +25,7 @@ if (number.length === 5 && !isNaN(number)) {
     
     alert(number.split("").join(" "));
 } else {
-    alert("Баран то пятизначне число");
+    alert("Баран то не пятизначне число");
 }
 
 function ChoiseUserAnswerCurrent(userAnswer)
