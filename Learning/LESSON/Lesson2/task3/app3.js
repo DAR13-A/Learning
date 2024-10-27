@@ -13,7 +13,7 @@ function getValidOperation() {
     if (!isNaN(number)) {
       return number;
     } else {
-      alert("Будь ласка, введіть правильне число.");
+      alert("Будь ласка, введіть число.");
       return null;
     }
   }
