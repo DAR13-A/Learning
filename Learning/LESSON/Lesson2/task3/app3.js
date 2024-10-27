@@ -1,20 +1,20 @@
-let operation = prompt("Що ви хочете зробити? (add, sub, mult, div)");
+let operation = prompt("Що ви хочете зробити? (+, -, *, /)");
 
 let firstNumber = parseFloat(prompt("Введіть перше число:"));
 let secondNumber = parseFloat(prompt("Введіть друге число:"));
 
 let result;
 
-if (operation === "add") {
+if (operation === "+") {
   result = firstNumber + secondNumber;
   alert(`${firstNumber} + ${secondNumber} = ${result}`);
-} else if (operation === "sub") {
+} else if (operation === "-") {
   result = firstNumber - secondNumber;
   alert(`${firstNumber} - ${secondNumber} = ${result}`);
-} else if (operation === "mult") {
+} else if (operation === "*") {
   result = firstNumber * secondNumber;
   alert(`${firstNumber} * ${secondNumber} = ${result}`);
-} else if (operation === "div") {
+} else if (operation === "/") {
   
   if (secondNumber !== 0) {
     result = firstNumber / secondNumber;
