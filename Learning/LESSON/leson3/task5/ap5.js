@@ -11,4 +11,4 @@ for (let i = start1; i <= end1; i++) {
   result += i;
 }
 
-alert(result);
+console.log(result);
