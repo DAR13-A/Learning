@@ -6,6 +6,26 @@
     <title>Проста HTML сторінка</title>
 </head>
 <body>
+
+    <h2>Введіть довжину масиву та його елементи</h2>
+    <label for="arrayLength">Довжина масиву:</label>
+    <input type="number" id="arrayLength" min="1">
+    <button onclick="createArray()">Створити масив</button>
+
+    <div id="arrayElements" style="display: none;">
+        <h3>Введіть елементи масиву</h3>
+        <div id="elementsInput"></div>
+        <button onclick="sortAndModifyArray()">Сортувати та видалити елементи</button>
+    </div>
+
+    <h3>Результат:</h3>
+    <div id="output"></div>
+
+
+    <h2>Результати аналізу масиву</h2>
+    <div id="output"></div>
+
+
     <script src="Learning/mainFunction.js"></script>
     <!-- <script src="Learning/LESSON/Lesson2/task1/app1.js"></script> -->
     <!-- <script src="Learning/LESSON/Lesson2/task2/app2.js"></script> -->
@@ -28,7 +48,9 @@
     <!-- <script src="Learning/LESSON/leson4/task19/ap19.js"></script> -->
     <!-- <script src="Learning/LESSON/leson4/task20/ap20.js"></script> -->
     <!-- <script src="Learning/LESSON/leson4/task21/ap21.js"></script> -->
-
+    <script src="Learning/LESSON/leson5/task1/ap1.js"></script>
+    <script src="Learning/LESSON/leson5/task2/ap2.js"></script>
+    <script src="Learning/LESSON/leson5/task3/ap3.js"></script>
     
 </body>
 </html>
